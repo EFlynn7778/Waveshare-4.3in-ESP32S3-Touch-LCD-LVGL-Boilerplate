@@ -4,7 +4,7 @@ https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-s3-touch-lcd-4
 
 LVGL library not included. Use LVGL 8.x.x Drop it in the /components/lvgl folder.
 
-UI Files from EEZ Studio are placed in the UI folder.
+ESP-IDF v5.4.0
 
 Your generated UI files from EEZ Studio are used directly. Drop them in the UI directory and compile. 
 
