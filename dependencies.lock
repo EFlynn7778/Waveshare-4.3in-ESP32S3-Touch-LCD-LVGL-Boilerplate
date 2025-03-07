@@ -1,0 +1,32 @@
+dependencies:
+  espressif/esp_lcd_touch:
+    dependencies: []
+    source:
+      path: C:\Users\Wizard\ESP Projects\WS43_IDF_BOILERPLATE\components\espressif__esp_lcd_touch
+      type: local
+    version: 1.1.2
+  espressif/esp_lcd_touch_gt911:
+    dependencies: []
+    source:
+      path: C:\Users\Wizard\ESP Projects\WS43_IDF_BOILERPLATE\components\espressif__esp_lcd_touch_gt911
+      type: local
+    version: 1.1.1~1
+  idf:
+    source:
+      type: idf
+    version: 5.4.0
+  lvgl/lvgl:
+    component_hash: d7c1ac037ae6e85d94897f807d6e7ba0946a83e720074fc95a4f6241da9f9f53
+    dependencies: []
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 8.4.0
+direct_dependencies:
+- espressif/esp_lcd_touch
+- espressif/esp_lcd_touch_gt911
+- idf
+- lvgl/lvgl
+manifest_hash: 32b1a3aaef8678569359195754603b6874cf8730d015ef63bacc5c803a30b589
+target: esp32s3
+version: 2.0.0
